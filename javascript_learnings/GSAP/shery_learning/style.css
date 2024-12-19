@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+head body{
+    background-color: rgb(39, 36, 36);
+}
+#image-div-container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image-div{
+    height: 33vw;
+    width: 24vw;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}

@@ -1,0 +1,50 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+#page1, #page2, #page3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers child horizontally */
+    align-items: center;   /* Centers child vertically */
+}
+
+#page1 {
+    background: linear-gradient(45deg, rgb(255, 128, 128), rgb(255, 94, 0));
+}
+
+#page1 #circle1 {
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(circle, rgb(96, 96, 227), rgb(50, 50, 120));
+    border-radius: 50%;
+}
+
+#page2 {
+    background: linear-gradient(135deg, rgb(34, 193, 195), rgb(253, 187, 45));
+}
+
+#page2 #circle2 {
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(circle, rgb(255, 0, 150), rgb(150, 0, 75));
+    border-radius: 50%;
+}
+
+#page3 {
+    background: linear-gradient(225deg, rgb(72, 61, 139), rgb(123, 104, 238));
+}
+
+#page3 #circle3 {
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(circle, rgb(255, 255, 0), rgb(255, 140, 0));
+    border-radius: 50%;
+}
